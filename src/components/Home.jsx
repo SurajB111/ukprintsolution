@@ -23,7 +23,7 @@ const Home = () => {
     {/* <Wrapper> */}
 
     <div className="headingContainer">
-    <h1 className='mainHeading'>Offset Printing Machines Sales & Services</h1>
+    <h1 className='mainHeading'>Offset Printing Machines </h1>
     </div>
     {/* </Wrapper> */}
 
