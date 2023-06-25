@@ -1,0 +1,106 @@
+.container{
+    /* background-color: #06061b; */
+    height: 100vh;
+    width:100%
+}
+.sideContainer{
+    background-image: linear-gradient(to bottom,#f7a35d,#fc4a1a);
+    width: 30%;
+    height: inherit;
+    position:absolute;
+    /* position: relative; */
+    right:0;
+    animation:sideContainerAnimation 1s linear forwards;
+}
+.mainContainer{
+    height: 60%;
+    width:70%;
+    background-color: white;
+    position:absolute;
+    border-radius: 20px;
+    transform: translateX(20%) translateY(-50%);
+    top: 70%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    animation:mainAnimation 1s linear forwards;
+}
+.mainContainerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.mainContainerForm>h4{
+    text-align:center;
+    margin: 1vmax;
+    font-weight: bold;
+
+}
+.mainContainerForm>input,.mainContainerForm>textarea{
+    padding: 1vmax;
+    outline: none;
+    border-radius:3px;
+    font-size: 1rem;
+    font-family: "Roboto";
+    transform: translateX(-100vw);
+    border: 1px solid rgba(0,0,0,0.2);
+    animation:formAnimation 1s linear forwards 0.5s;
+}
+.mainContainerForm>button{
+    background:linear-gradient(to right,#f7a35d,#fc4a1a);
+    animation:buttonAnimation 1s 
+    ease-in-out forwards 1s;
+    transform: translateY(-100vh);
+}
+.mainContainerForm>button:hover{
+    background:linear-gradient(to right,#06061b,white);
+}
+.otherConnections{
+height: 50vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.otherConnections >.cardHeading>h1{
+    font-size: 2rem;
+}
+@keyframes buttonAnimation {
+    from{
+        transform: translateY(-100vh);
+    }
+    to{
+        transform: translateY(0vh);
+    }
+}
+@keyframes mainAnimation {
+    from{
+        transform: translateX(-100%) translateY(-50%);
+    }
+    to{
+        transform:  translateX(20%) translateY(-50%);
+    }
+    
+}
+@keyframes formAnimation {
+    from{
+        transform: translateX(-100vw);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes sideContainerAnimation {
+    from{
+        transform: translatey(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width: 600px) {
+    .otherConnections >.cardHeading>h1{
+        font-size: 1.3rem;
+    }
+}

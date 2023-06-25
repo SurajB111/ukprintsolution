@@ -1,0 +1,126 @@
+.machineDetailDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.machineDetailImageDiv{
+    display: flex;
+    height: 70vh;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(171, 165, 165, 0.5);
+}
+.soloSlider{
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px grey;
+}
+.machineDetailImageDiv>h1{
+    margin: 20px;
+    letter-spacing: 2px;
+     background-image: linear-gradient(to right,#f7a35d, #fc4a1a);
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+  color: transparent;
+  word-spacing: 2px;
+
+}
+.machineDetailDescDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.machineDetailDescDiv>h1{
+    margin: 30px;
+    padding:10px;
+    background:linear-gradient(to right,#f7a35d,#fc4a1a);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: white;
+}
+.machineDetailDescDiv>p{
+    margin: 20px;
+    letter-spacing: 5px;
+     word-spacing: 5px;
+     font-weight: 700;
+     color :grey;
+     margin-left: 10%;
+     margin-right: 10%;
+     /* margin-right: 200px; */
+}
+.machineButton{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 10px;
+    transition :all 0.3s;
+}
+.machineButton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* .allDescDiv{
+    /* height: 200px;
+    width: 100%; */
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:20px;
+    margin: 20px;
+} */ 
+/* .allDescDiv>h1{
+    margin: 10px;
+    padding:10px;
+    background:linear-gradient(to right,#f7a35d,#fc4a1a);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: white; */
+/* } */
+/* .allDescDiv>p{
+    margin-left: 100px;
+    letter-spacing: 5px;
+     word-spacing: 5px;
+     font-weight: 700;
+     color :grey;
+     margin-right: 200px;
+}
+.allDetailDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:20px;
+    margin: 20px;
+}
+.allDetailDiv>h1{
+    margin: 10px;
+    padding:10px;
+    background:linear-gradient(to right,#f7a35d,#fc4a1a);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: white;
+}
+.allDetailDiv>p{
+    margin-left: 100px;
+    letter-spacing: 5px;
+     word-spacing: 5px;
+     font-weight: 700;
+     color :grey;
+     margin-right: 200px;
+} */

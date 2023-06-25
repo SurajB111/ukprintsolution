@@ -1,0 +1,44 @@
+.mainCardItemContainer{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 100%;
+    transition: all 0.3s;
+}
+.cardImageDiv{
+    height: 50%;
+    margin-bottom: 5px;  
+    /* overflow: hidden;   */
+    transition: all 0.3s;
+}
+.cardImageDiv> img{
+    height:100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.cardTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.cardTitle>h4{
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color:rgb(20, 15, 15);
+}
+.cardTitle>p{
+    font-weight: 100;
+    color:grey;
+    padding-top: 7px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
+
+

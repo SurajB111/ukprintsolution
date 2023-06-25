@@ -1,0 +1,32 @@
+.aboutUsPageMainDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+.aboutUsPageHeading{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.aboutUsPageImage{
+    height: 300px;
+    margin: 30px;
+    width: 50vw;
+}
+.aboutUsPageImage img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+.aboutUsPageDesc{
+    margin: 20px;
+}
+.aboutUsPageDesc> p{
+    font-weight:bold;
+    font-size: 1.2rem;
+    color: grey;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}

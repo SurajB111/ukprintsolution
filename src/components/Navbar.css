@@ -1,0 +1,120 @@
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vh;
+  width: 80vw;
+  /* background-color: aqua; */
+  position: absolute;
+  z-index: 1;
+  margin-left: 10%;
+  margin-top: 2%;
+  padding: 1%;
+  border-radius:15px;
+  background:linear-gradient(to right,#f7a35d,#fc4a1a);
+  box-shadow:0 0 10px 0px grey ;
+  /* opacity: 0.9; */
+  /* position: fixed; */
+}
+.navbarItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4%;
+  /* height: 20vh; */
+  /* flex-direction: column; */
+  /* position: absolute; */
+  /* position: sticky; */
+
+  
+}
+.navbarItems{
+  margin: 8px;
+}
+a{
+  text-decoration: none;
+  margin: 5px;
+}
+.navbarItems{
+  /* background-color: black; */
+  height: 40px;
+  padding-left: 6px;
+  padding-right: 6px;
+  display: flex;
+  font-weight: 800;
+  align-items: center;
+  border-radius: 10px;
+  color: black;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+.navbarItems:hover{
+  background-color: rgb(17, 18, 19);
+  color :rgb(249, 244, 244);
+  transform: scale(1.2);
+}
+.navbarImage{
+  height: 5vh;
+  width: 6vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  /* position: absolute; */
+  /* display: flex; */
+  /* position:sticky; */
+}
+.navbarDropdown{
+  background-image: linear-gradient(to right, #de3f3f, #3333e5);
+  display: flex;
+  flex-direction: column;
+}
+.smallDiv{
+  background-color: black;
+  height: 80vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 3;
+  transition: all 1s;
+  background-color: #141029;
+  transform: translateY(-700px);
+  /* transform: translateY(100px); */
+  /* transform: translateX(-400px); */
+  overflow-x: hidden;
+  /* animation-name: toogleBoxAnimationIn; */
+ animation:toogleBoxAnimationIn 1s linear forwards;
+  
+}
+.smallNavbarItems{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: inherit;
+  width: inherit;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.newClass{
+  width: 100vw;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+@keyframes toogleBoxAnimationIn {
+  
+  to{
+    /* transform: translateX(0px); */
+    transform: translateY(100px);
+  }
+}
+@keyframes toogleBoxAnimationOut {
+  
+  to{
+    /* transform: translateX(0px); */
+    transform: translateY(-700px);
+  }
+  
+}
+

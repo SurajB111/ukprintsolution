@@ -1,0 +1,26 @@
+.headingContainer{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* box-shadow: 0 0 30px ;  */
+    border-bottom: 3px solid black;
+    background: linear-gradient(to right, #f7a35d, #fc4a1a);
+}
+.mainHeading{
+    /* background: linear-gradient(to right, #f7a35d, #fc4a1a); */
+  /* -webkit-background-clip: text;
+  -moz-background-clip: text; */
+  /* background-clip: text;
+  color: transparent; */
+    font-size: 2.3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+@media screen and (max-width:700px) {
+    .mainHeading{
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,15 @@
+.hero-section {
+  position: relative;
+  height: 80vh;
+  /* box-shadow: 0 0 30px ; */
+}
+
+.carousel-root {
+  height: 80vh;
+}
+
+.carousel .slide img {
+  object-fit: cover;
+  height: 80vh;
+  width: 100%;
+}

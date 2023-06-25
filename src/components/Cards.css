@@ -1,0 +1,68 @@
+.mainCardContainer{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    /* background-color:rgb(241, 248, 252); */
+}
+.cardHeading{
+    margin: 50px;
+    /* background:linear-gradient(to right,black,white); */
+    background: linear-gradient(to right, #f7a35d, #fc4a1a);
+    /* border: 1px solid black; */
+    width: 40vw;
+    padding: 10px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px 0; */
+    cursor:default;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.cardHeading h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.machineRapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.outsideCardContainer {
+     width: 25%; 
+    flex: 0 0 24%; 
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 30px 0px grey;
+    transition: all 0.3s;
+    border-radius: 10px;
+    /* background: linear-gradient(to right, #f7a35d, #fc4a1a); */
+    background-color: white;
+  }
+  .outsideCardContainer:hover{
+    /* transform: scale(1.07); */
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0px black;
+    overflow: hidden;
+  }
+  .cardLink{
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (max-width: 1000px){
+    .outsideCardContainer{
+        width:40%;
+        flex:0 0 40%;
+    }
+  }
+  @media screen and (max-width:700px){
+    .machineRapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .outsideCardContainer{
+        width: 70%;
+    }
+  }
