@@ -72,7 +72,7 @@ const Navbar = ({toogle}) => {
       <div className="navbarItem" >
         <div>
       {/* <img  src={logo} alt="logo" className='navbarImage' onClick={handleMenuToggle} /> */}
-      {isMenuOpen?(<RxCross1 style={{height:'30px'}} onClick={handleMenuToggle} className='navbarImage'/>):(<GiHamburgerMenu style={{height:'30px'}} onClick={handleMenuToggle} className='navbarImage'/>)}
+      {isMenuOpen?(<RxCross1 style={{height:'30px'}} onClick={handleMenuToggle} className='navbarImage'/>):(<GiHamburgerMenu style={{height:'30px',color:'white'}} onClick={handleMenuToggle} className='navbarImage'/>)}
       </div>
       </div>
       

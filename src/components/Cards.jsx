@@ -20,6 +20,7 @@ const Cards = () => {
            <motion.div key = {index} 
                initial={{ y: 100 }}
                whileInView={{ y: 0 }}
+               viewport={{once: true}}
                whileHover={{scale:1.1}}
                transition={{ duration: 0.1, type: 'spring' }}
            className="outsideCardContainer">

@@ -45,7 +45,7 @@ a{
   font-weight: 800;
   align-items: center;
   border-radius: 10px;
-  color: black;
+  color: white;
   letter-spacing: 2px;
   transition: all 0.5s;
 }
@@ -100,6 +100,7 @@ a{
   display: flex;
   height: 50px;
   justify-content: center;
+  color:black;
 }
 
 @keyframes toogleBoxAnimationIn {

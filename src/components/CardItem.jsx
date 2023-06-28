@@ -18,7 +18,7 @@ const CardItem = ({id,image,title,desc}) => {
         </div>
         <div className='cardTitle'>
           <h4>{title}</h4>
-          <p>{desc.slice(0,80)} ...<b>Read more</b></p>
+          <p>{desc.length>120?desc.slice(0,120):desc} ...<b>Read more</b></p>
         </div>
      </div>
      </Link>
